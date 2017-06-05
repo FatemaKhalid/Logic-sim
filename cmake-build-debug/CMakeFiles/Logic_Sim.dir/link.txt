@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.o CMakeFiles/Logic_Sim.dir/main.cpp.o CMakeFiles/Logic_Sim.dir/redo.cpp.o CMakeFiles/Logic_Sim.dir/select_area.cpp.o CMakeFiles/Logic_Sim.dir/undo.cpp.o  -o Logic_Sim 

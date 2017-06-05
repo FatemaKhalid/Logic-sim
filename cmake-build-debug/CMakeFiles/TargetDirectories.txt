@@ -1,0 +1,3 @@
+/home/fatemakh/CLionProjects/Logic-Sim/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/fatemakh/CLionProjects/Logic-Sim/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/fatemakh/CLionProjects/Logic-Sim/cmake-build-debug/CMakeFiles/Logic_Sim.dir

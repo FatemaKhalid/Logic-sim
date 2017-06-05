@@ -1,11 +1,11 @@
 #ifndef APPLICATION_MANAGER_H
 #define APPLICATION_MANAGER_H
 
-#include "Defs.h"
-#include "GUI\Output.h"
-#include "GUI\Input.h"
-#include "Actions\Action.h"
-#include "Components\Component.h"
+#include "Defs.H"
+#include "GUI/Output.h"
+#include "GUI/Input.h"
+#include "Actions/Action.h"
+#include "Components/Component.h"
 #include<stack>
 
 #include<string>     //mn 3ndy

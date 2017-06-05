@@ -2,8 +2,7 @@
 #include "ApplicationManager.h"
 
 
-redo::redo(ApplicationManager *pApp) : Action(pApp)
-{
+redo::redo(ApplicationManager *pApp) : Action(pApp) {
 }
 
 void redo::ReadActionParameters()
