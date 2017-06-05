@@ -43,10 +43,10 @@ RM = /home/fatemakh/Downloads/clion-2017.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fatemakh/CLionProjects/Logic-Sim
+CMAKE_SOURCE_DIR = /home/fatemakh/CLionProjects/Logic-sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fatemakh/CLionProjects/Logic-Sim/cmake-build-debug
+CMAKE_BINARY_DIR = /home/fatemakh/CLionProjects/Logic-sim/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Logic_Sim.dir/depend.make
@@ -57,7 +57,157 @@ include CMakeFiles/Logic_Sim.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Logic_Sim.dir/flags.make
 
-CMakeFiles/Logic_Sim.dir/requires:
+CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.o: CMakeFiles/Logic_Sim.dir/flags.make
+CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.o: ../ApplicationManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fatemakh/CLionProjects/Logic-sim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.o -c /home/fatemakh/CLionProjects/Logic-sim/ApplicationManager.cpp
+
+CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fatemakh/CLionProjects/Logic-sim/ApplicationManager.cpp > CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.i
+
+CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fatemakh/CLionProjects/Logic-sim/ApplicationManager.cpp -o CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.s
+
+CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.o.requires:
+
+.PHONY : CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.o.requires
+
+CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.o.provides: CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.o.provides.build
+.PHONY : CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.o.provides
+
+CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.o.provides.build: CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.o
+
+
+CMakeFiles/Logic_Sim.dir/main.cpp.o: CMakeFiles/Logic_Sim.dir/flags.make
+CMakeFiles/Logic_Sim.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fatemakh/CLionProjects/Logic-sim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Logic_Sim.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Logic_Sim.dir/main.cpp.o -c /home/fatemakh/CLionProjects/Logic-sim/main.cpp
+
+CMakeFiles/Logic_Sim.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Logic_Sim.dir/main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fatemakh/CLionProjects/Logic-sim/main.cpp > CMakeFiles/Logic_Sim.dir/main.cpp.i
+
+CMakeFiles/Logic_Sim.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Logic_Sim.dir/main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fatemakh/CLionProjects/Logic-sim/main.cpp -o CMakeFiles/Logic_Sim.dir/main.cpp.s
+
+CMakeFiles/Logic_Sim.dir/main.cpp.o.requires:
+
+.PHONY : CMakeFiles/Logic_Sim.dir/main.cpp.o.requires
+
+CMakeFiles/Logic_Sim.dir/main.cpp.o.provides: CMakeFiles/Logic_Sim.dir/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/main.cpp.o.provides.build
+.PHONY : CMakeFiles/Logic_Sim.dir/main.cpp.o.provides
+
+CMakeFiles/Logic_Sim.dir/main.cpp.o.provides.build: CMakeFiles/Logic_Sim.dir/main.cpp.o
+
+
+CMakeFiles/Logic_Sim.dir/redo.cpp.o: CMakeFiles/Logic_Sim.dir/flags.make
+CMakeFiles/Logic_Sim.dir/redo.cpp.o: ../redo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fatemakh/CLionProjects/Logic-sim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Logic_Sim.dir/redo.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Logic_Sim.dir/redo.cpp.o -c /home/fatemakh/CLionProjects/Logic-sim/redo.cpp
+
+CMakeFiles/Logic_Sim.dir/redo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Logic_Sim.dir/redo.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fatemakh/CLionProjects/Logic-sim/redo.cpp > CMakeFiles/Logic_Sim.dir/redo.cpp.i
+
+CMakeFiles/Logic_Sim.dir/redo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Logic_Sim.dir/redo.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fatemakh/CLionProjects/Logic-sim/redo.cpp -o CMakeFiles/Logic_Sim.dir/redo.cpp.s
+
+CMakeFiles/Logic_Sim.dir/redo.cpp.o.requires:
+
+.PHONY : CMakeFiles/Logic_Sim.dir/redo.cpp.o.requires
+
+CMakeFiles/Logic_Sim.dir/redo.cpp.o.provides: CMakeFiles/Logic_Sim.dir/redo.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/redo.cpp.o.provides.build
+.PHONY : CMakeFiles/Logic_Sim.dir/redo.cpp.o.provides
+
+CMakeFiles/Logic_Sim.dir/redo.cpp.o.provides.build: CMakeFiles/Logic_Sim.dir/redo.cpp.o
+
+
+CMakeFiles/Logic_Sim.dir/select_area.cpp.o: CMakeFiles/Logic_Sim.dir/flags.make
+CMakeFiles/Logic_Sim.dir/select_area.cpp.o: ../select_area.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fatemakh/CLionProjects/Logic-sim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Logic_Sim.dir/select_area.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Logic_Sim.dir/select_area.cpp.o -c /home/fatemakh/CLionProjects/Logic-sim/select_area.cpp
+
+CMakeFiles/Logic_Sim.dir/select_area.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Logic_Sim.dir/select_area.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fatemakh/CLionProjects/Logic-sim/select_area.cpp > CMakeFiles/Logic_Sim.dir/select_area.cpp.i
+
+CMakeFiles/Logic_Sim.dir/select_area.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Logic_Sim.dir/select_area.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fatemakh/CLionProjects/Logic-sim/select_area.cpp -o CMakeFiles/Logic_Sim.dir/select_area.cpp.s
+
+CMakeFiles/Logic_Sim.dir/select_area.cpp.o.requires:
+
+.PHONY : CMakeFiles/Logic_Sim.dir/select_area.cpp.o.requires
+
+CMakeFiles/Logic_Sim.dir/select_area.cpp.o.provides: CMakeFiles/Logic_Sim.dir/select_area.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/select_area.cpp.o.provides.build
+.PHONY : CMakeFiles/Logic_Sim.dir/select_area.cpp.o.provides
+
+CMakeFiles/Logic_Sim.dir/select_area.cpp.o.provides.build: CMakeFiles/Logic_Sim.dir/select_area.cpp.o
+
+
+CMakeFiles/Logic_Sim.dir/undo.cpp.o: CMakeFiles/Logic_Sim.dir/flags.make
+CMakeFiles/Logic_Sim.dir/undo.cpp.o: ../undo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fatemakh/CLionProjects/Logic-sim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Logic_Sim.dir/undo.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Logic_Sim.dir/undo.cpp.o -c /home/fatemakh/CLionProjects/Logic-sim/undo.cpp
+
+CMakeFiles/Logic_Sim.dir/undo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Logic_Sim.dir/undo.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fatemakh/CLionProjects/Logic-sim/undo.cpp > CMakeFiles/Logic_Sim.dir/undo.cpp.i
+
+CMakeFiles/Logic_Sim.dir/undo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Logic_Sim.dir/undo.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fatemakh/CLionProjects/Logic-sim/undo.cpp -o CMakeFiles/Logic_Sim.dir/undo.cpp.s
+
+CMakeFiles/Logic_Sim.dir/undo.cpp.o.requires:
+
+.PHONY : CMakeFiles/Logic_Sim.dir/undo.cpp.o.requires
+
+CMakeFiles/Logic_Sim.dir/undo.cpp.o.provides: CMakeFiles/Logic_Sim.dir/undo.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/undo.cpp.o.provides.build
+.PHONY : CMakeFiles/Logic_Sim.dir/undo.cpp.o.provides
+
+CMakeFiles/Logic_Sim.dir/undo.cpp.o.provides.build: CMakeFiles/Logic_Sim.dir/undo.cpp.o
+
+
+# Object files for target Logic_Sim
+Logic_Sim_OBJECTS = \
+"CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.o" \
+"CMakeFiles/Logic_Sim.dir/main.cpp.o" \
+"CMakeFiles/Logic_Sim.dir/redo.cpp.o" \
+"CMakeFiles/Logic_Sim.dir/select_area.cpp.o" \
+"CMakeFiles/Logic_Sim.dir/undo.cpp.o"
+
+# External object files for target Logic_Sim
+Logic_Sim_EXTERNAL_OBJECTS =
+
+Logic_Sim: CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.o
+Logic_Sim: CMakeFiles/Logic_Sim.dir/main.cpp.o
+Logic_Sim: CMakeFiles/Logic_Sim.dir/redo.cpp.o
+Logic_Sim: CMakeFiles/Logic_Sim.dir/select_area.cpp.o
+Logic_Sim: CMakeFiles/Logic_Sim.dir/undo.cpp.o
+Logic_Sim: CMakeFiles/Logic_Sim.dir/build.make
+Logic_Sim: CMakeFiles/Logic_Sim.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fatemakh/CLionProjects/Logic-sim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Logic_Sim"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Logic_Sim.dir/link.txt --verbose=$(VERBOSE)
+
+# Rule to build all files generated by this target.
+CMakeFiles/Logic_Sim.dir/build: Logic_Sim
+
+.PHONY : CMakeFiles/Logic_Sim.dir/build
+
+CMakeFiles/Logic_Sim.dir/requires: CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.o.requires
+CMakeFiles/Logic_Sim.dir/requires: CMakeFiles/Logic_Sim.dir/main.cpp.o.requires
+CMakeFiles/Logic_Sim.dir/requires: CMakeFiles/Logic_Sim.dir/redo.cpp.o.requires
+CMakeFiles/Logic_Sim.dir/requires: CMakeFiles/Logic_Sim.dir/select_area.cpp.o.requires
+CMakeFiles/Logic_Sim.dir/requires: CMakeFiles/Logic_Sim.dir/undo.cpp.o.requires
 
 .PHONY : CMakeFiles/Logic_Sim.dir/requires
 
@@ -66,6 +216,6 @@ CMakeFiles/Logic_Sim.dir/clean:
 .PHONY : CMakeFiles/Logic_Sim.dir/clean
 
 CMakeFiles/Logic_Sim.dir/depend:
-	cd /home/fatemakh/CLionProjects/Logic-Sim/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fatemakh/CLionProjects/Logic-Sim /home/fatemakh/CLionProjects/Logic-Sim /home/fatemakh/CLionProjects/Logic-Sim/cmake-build-debug /home/fatemakh/CLionProjects/Logic-Sim/cmake-build-debug /home/fatemakh/CLionProjects/Logic-Sim/cmake-build-debug/CMakeFiles/Logic_Sim.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fatemakh/CLionProjects/Logic-sim/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fatemakh/CLionProjects/Logic-sim /home/fatemakh/CLionProjects/Logic-sim /home/fatemakh/CLionProjects/Logic-sim/cmake-build-debug /home/fatemakh/CLionProjects/Logic-sim/cmake-build-debug /home/fatemakh/CLionProjects/Logic-sim/cmake-build-debug/CMakeFiles/Logic_Sim.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Logic_Sim.dir/depend
 

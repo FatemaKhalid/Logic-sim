@@ -1,4 +1,4 @@
-# Install script for directory: /home/fatemakh/CLionProjects/Logic-Sim
+# Install script for directory: /home/fatemakh/CLionProjects/Logic-sim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/fatemakh/CLionProjects/Logic-Sim/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/fatemakh/CLionProjects/Logic-sim/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

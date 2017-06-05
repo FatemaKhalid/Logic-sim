@@ -1,15 +1,18 @@
-/home/fatemakh/Downloads/clion-2017.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/fatemakh/CLionProjects/Logic-Sim
+/home/fatemakh/Downloads/clion-2017.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/fatemakh/CLionProjects/Logic-sim
+-- The C compiler identification is GNU 6.3.0
+-- The CXX compiler identification is GNU 6.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- Configuring done
-CMake Error at CMakeLists.txt:31 (add_executable):
-  Cannot find source file:
-
-    CMUgraphicsLib
-
-  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
-  .hxx .in .txx
-
-
-CMake Error: CMake can not determine linker language for target: Logic_Sim
-CMake Error: Cannot determine link language for target "Logic_Sim".
 -- Generating done
--- Build files have been written to: /home/fatemakh/CLionProjects/Logic-Sim/cmake-build-debug
+-- Build files have been written to: /home/fatemakh/CLionProjects/Logic-sim/cmake-build-debug

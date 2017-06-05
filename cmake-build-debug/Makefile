@@ -48,10 +48,10 @@ RM = /home/fatemakh/Downloads/clion-2017.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fatemakh/CLionProjects/Logic-Sim
+CMAKE_SOURCE_DIR = /home/fatemakh/CLionProjects/Logic-sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fatemakh/CLionProjects/Logic-Sim/cmake-build-debug
+CMAKE_BINARY_DIR = /home/fatemakh/CLionProjects/Logic-sim/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fatemakh/CLionProjects/Logic-Sim/cmake-build-debug/CMakeFiles /home/fatemakh/CLionProjects/Logic-Sim/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fatemakh/CLionProjects/Logic-sim/cmake-build-debug/CMakeFiles /home/fatemakh/CLionProjects/Logic-sim/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fatemakh/CLionProjects/Logic-Sim/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fatemakh/CLionProjects/Logic-sim/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,141 @@ Logic_Sim/fast:
 	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/build
 .PHONY : Logic_Sim/fast
 
+ApplicationManager.o: ApplicationManager.cpp.o
+
+.PHONY : ApplicationManager.o
+
+# target to build an object file
+ApplicationManager.cpp.o:
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.o
+.PHONY : ApplicationManager.cpp.o
+
+ApplicationManager.i: ApplicationManager.cpp.i
+
+.PHONY : ApplicationManager.i
+
+# target to preprocess a source file
+ApplicationManager.cpp.i:
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.i
+.PHONY : ApplicationManager.cpp.i
+
+ApplicationManager.s: ApplicationManager.cpp.s
+
+.PHONY : ApplicationManager.s
+
+# target to generate assembly for a file
+ApplicationManager.cpp.s:
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/ApplicationManager.cpp.s
+.PHONY : ApplicationManager.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+redo.o: redo.cpp.o
+
+.PHONY : redo.o
+
+# target to build an object file
+redo.cpp.o:
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/redo.cpp.o
+.PHONY : redo.cpp.o
+
+redo.i: redo.cpp.i
+
+.PHONY : redo.i
+
+# target to preprocess a source file
+redo.cpp.i:
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/redo.cpp.i
+.PHONY : redo.cpp.i
+
+redo.s: redo.cpp.s
+
+.PHONY : redo.s
+
+# target to generate assembly for a file
+redo.cpp.s:
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/redo.cpp.s
+.PHONY : redo.cpp.s
+
+select_area.o: select_area.cpp.o
+
+.PHONY : select_area.o
+
+# target to build an object file
+select_area.cpp.o:
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/select_area.cpp.o
+.PHONY : select_area.cpp.o
+
+select_area.i: select_area.cpp.i
+
+.PHONY : select_area.i
+
+# target to preprocess a source file
+select_area.cpp.i:
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/select_area.cpp.i
+.PHONY : select_area.cpp.i
+
+select_area.s: select_area.cpp.s
+
+.PHONY : select_area.s
+
+# target to generate assembly for a file
+select_area.cpp.s:
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/select_area.cpp.s
+.PHONY : select_area.cpp.s
+
+undo.o: undo.cpp.o
+
+.PHONY : undo.o
+
+# target to build an object file
+undo.cpp.o:
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/undo.cpp.o
+.PHONY : undo.cpp.o
+
+undo.i: undo.cpp.i
+
+.PHONY : undo.i
+
+# target to preprocess a source file
+undo.cpp.i:
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/undo.cpp.i
+.PHONY : undo.cpp.i
+
+undo.s: undo.cpp.s
+
+.PHONY : undo.s
+
+# target to generate assembly for a file
+undo.cpp.s:
+	$(MAKE) -f CMakeFiles/Logic_Sim.dir/build.make CMakeFiles/Logic_Sim.dir/undo.cpp.s
+.PHONY : undo.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Logic_Sim"
+	@echo "... ApplicationManager.o"
+	@echo "... ApplicationManager.i"
+	@echo "... ApplicationManager.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... redo.o"
+	@echo "... redo.i"
+	@echo "... redo.s"
+	@echo "... select_area.o"
+	@echo "... select_area.i"
+	@echo "... select_area.s"
+	@echo "... undo.o"
+	@echo "... undo.i"
+	@echo "... undo.s"
 .PHONY : help
 
 
